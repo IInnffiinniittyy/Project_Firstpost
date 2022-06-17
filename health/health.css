@@ -9,7 +9,8 @@
 #mainSy{
   
     width: 50%;
-    margin: auto;
+    /* border: 2px solid red; */
+    margin-top: 60px;
 }
 #mainSy img{
   
@@ -58,4 +59,122 @@ hr{
     cursor: pointer;
     outline: 0;
     color: #000;
+    margin-top: 30px;
+}
+
+/* style you right part of the page here  */
+#parentAm{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#rightAm{
+    width: 23%;
+    height: 1950px;
+    /* border: 2px solid green; */
+    margin: 80px 0px 0px 20px;
+}
+
+#rightAm > div:nth-child(1){
+    width: 100%;
+    height: 14.3%;
+    border: 1px solid rgb(154, 154, 154);
+    margin-bottom: 20px;
+}
+
+#rightAm > div:nth-child(1) > h2{
+    margin: 10px 0px 0px 10px;
+}
+
+#rightAm > div:nth-child(1) > p{
+    margin: 10px 0px 10px 10px;
+    color: rgb(154, 154, 154) ;
+}
+
+#rightAm > div:nth-child(1) > label{
+    font-size: 18px;
+    margin: 0px 0px 0px 10px;
+}
+#rightAm > div:nth-child(1) > input{
+    width: 85%;
+    padding: 7px;
+    border: 1px solid rgb(154, 154, 154);
+    margin: 10px 0px 0px 10px;
+    border-radius: 5px;
+}
+
+#rightAm > div:nth-child(1) > button{
+    width: 40%;
+    padding: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: #FAD65F;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    margin: 10px 0px 0px 10px;
+}
+
+#rightAm > div:nth-child(1)+p{
+    font-weight: bold;
+    margin: 0px 0px 0px 20px;
+    line-height: none;
+    margin-bottom: -9px;
+    font-size: 23px;
+}
+
+#rightAm > div:nth-child(1)+p+div{
+    width: 190px;
+    height: 7px;
+    border: 2px solid #FAD65F;
+    background-color: #FAD65F;
+}
+
+#secondChildAm{
+    width: 100%;
+    height: 63%;
+    border: 1px solid rgb(223, 218, 218) ;
+}
+
+#secondChildAm > div{
+    width: 100%;
+    border:1px solid rgb(223, 218, 218) ;
+    display: flex;
+}
+
+#secondChildAm > div > div > h1{
+    margin: 20px 20px 10px 10px;
+    border-radius: 50px;
+    background-color:rgb(230, 228, 228);
+    padding: 2px;
+}
+#secondChildAm > div > div > h2{
+    font-size: 20px;
+    margin: 20px 20px 10px 0px;
+    font: Helvetica,Arial,sans-serif;
+}
+#secondChildAm > div > div > p{
+    margin: 0px 20px 10px 0px;
+    font: 400 14px/18px Arial;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: 400;
+    font-stretch: normal;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: Arial;
+    letter-spacing: .56px;
+    color: #000;
+
+}
+#rightAm > div:last-child{
+    width: 100%;
+    height: 20%;
+}
+#rightAm > div:last-child > h2{
+   margin: 40px 0px 20px 0px;
 }

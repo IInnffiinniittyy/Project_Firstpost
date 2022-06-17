@@ -171,6 +171,14 @@ dataSy.forEach(function (el, index, arr) {
 })
 
 
+document.querySelector("button").addEventListener("click",submitFun)
+function submitFun(event){
+ let p =  document.createElement("p");
+ document.querySelector("rightAm > div").append(p)
+ p.innerText = "Thank"
+}
+
+
 
 
 console.log(document)
