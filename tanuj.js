@@ -35,5 +35,5 @@ function showimages() {
     }
     images[index-1].style.display = "block";  
     dots[index-1].className += " active";
-    setTimeout(showimages, 1000); // Change image every (1) second
+    setTimeout(showimages, 3000); // Change image every (3) second
   }
