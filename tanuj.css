@@ -1,0 +1,78 @@
+h1,
+p {
+  position: relative;
+  text-align: center;
+}
+h1:before,
+h1:after {
+  position: absolute;
+  top: 51%;
+  overflow: hidden;
+  width: 50%;
+  height: 3px;
+  content: "\a0";
+  background-color: grey;
+}
+h1:before {
+  margin-left: -50%;
+  text-align: right;
+}
+button {
+  padding: 13px 15px;
+  color: transparent;
+  background-color: white;
+}
+.container {
+  /* border: 1px solid red; */
+  width: 90%;
+  /* height: 100vh; */
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+.image,
+.image1 {
+  display: none;
+  cursor: pointer;
+}
+#prev {
+  position: absolute;
+  color: transparent;
+  cursor: pointer;
+  left: 40%;
+  bottom: -8px;
+  font-weight: bold;
+  font-size: 200px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+#next {
+  position: absolute;
+  color: transparent;
+  cursor: pointer;
+  right: 40%;
+  bottom: -8px;
+  font-size: 200px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Fading animation */
+
+.fade {
+  animation: fade 0.5s;
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
