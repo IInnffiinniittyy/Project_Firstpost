@@ -39,7 +39,7 @@
 
  /* icons style start */
 
-#child > div:nth-child(2) > a:nth-child(1){
+/* #child > div:nth-child(2) > a:nth-child(1){
     padding: 2px;
     margin-right: 10px;
    border: none;
@@ -80,7 +80,7 @@
    background-color:#c31e1d ;
    
    text-decoration: none;
-}
+} */
 
 /* icons style end */
 
@@ -292,8 +292,8 @@ input:checked ~ .slide{
    
    text-decoration: none;
 }
-.line{
-    display: flex;
-    color: red;
-    
+.search-icon{
+    margin-left: 190px;
+    margin-bottom: 50px;
+    font-size: large;
 }
