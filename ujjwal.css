@@ -6,7 +6,7 @@
 #navbar{
     width: 100%;
     height: 90px;
-    position: fixed;
+    position: relative;
 }
 #first{
     width: 100%;
@@ -33,7 +33,6 @@
     height: 500px;
     position: absolute;
     background-color: #fff;
-    border: 2px solid red;
 }
 
 
@@ -91,6 +90,8 @@
     height: 40%;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     display: flex;
+    /* border: 2px solid red; */
+    background-color: white;
    
 
 }
@@ -121,7 +122,7 @@
     align-items: center;
      padding-right: 8%;
 }
-#seChildAm > button{
+#seChildAm > a > button{
     background-color: #005498;
     color: white;
     border: none;
@@ -292,8 +293,103 @@ input:checked ~ .slide{
    
    text-decoration: none;
 }
-.search-icon{
-    margin-left: 190px;
-    margin-bottom: 50px;
-    font-size: large;
+
+a{
+    text-decoration: none;
 }
+
+/* this is our unique work */
+
+.hr {
+    display: flex;
+    width: 100%;
+    height: 10px;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    margin: 15px 0px;
+  }
+  .hr > div:nth-child(1) {
+    width: 39%;
+    padding-top: 2px;
+  
+    /* border: 2px solid rgb(37, 165, 50); */
+  }
+  .hr > div:nth-child(2) {
+    width: 20%;
+    height: 6px;
+  
+    background-color: #fad65f;
+    /* border: 2px solid rgb(37, 165, 50); */
+  }
+  
+  .hr > div:nth-child(3) {
+    width: 39%;
+  
+    padding-top: 2px;
+  }
+  hr {
+    background-color: #000;
+  }
+
+
+  /* this style is for slider */
+
+  .container {
+    /* border: 1px solid red; */
+    width: 90%;
+    /* height: 100vh; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+  }
+  #prev {
+    position: absolute;
+    color: transparent;
+    cursor: pointer;
+    left: 40%;
+    bottom: -8px;
+    font-weight: bold;
+    font-size: 200px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  #next {
+    position: absolute;
+    color: transparent;
+    cursor: pointer;
+    right: 40%;
+    bottom: -8px;
+    font-size: 200px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Fading animation */
+  
+  .fade {
+    animation: fade 0.5s;
+  }
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  /* this style is for right */
+ 
+  #papaOfall{
+    width: 100%;
+    height: 1000px;
+    border: 2px solid red;
+  }
+ 
+
+  
