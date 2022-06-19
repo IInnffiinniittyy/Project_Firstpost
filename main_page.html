@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sliding Page</title>
+    <link rel="stylesheet" href="main_page.css" />
+  </head>
+  <body>
+    <!-- Main container  -->
+    <div class="container">
+      <div class="image fade">
+        <a href="https://www.firstpost.com/category/world" target="_blank">
+          <img src="images/11.jpg" alt="1" width="100%" />
+        </a>
+      </div>
+      <div class="image fade">
+        <a href="https://www.firstpost.com/category/opinion " target="_blank">
+          <img src="images/12.jpg" alt="2" width="100%" />
+        </a>
+      </div>
+      <div class="image fade">
+        <a href="https://www.firstpost.com/category/opinion" target="_blank">
+          <img src="images/13.jpg" alt="3" width="100%" />
+        </a>
+      </div>
+      <div class="image fade">
+        <a href="https://www.firstpost.com/category/sports" target="_blank">
+          <img src="images/14.jpg" alt="4" width="100%" />
+        </a>
+      </div>
+      <div class="image fade">
+        <a href="https://www.firstpost.com/category/entertainment" target="_blank">
+          <img src="images/15.jpg" alt="5" width="100%" />
+        </a>
+      </div>
+      <!-- for auto navigation -->
+      <div style="text-align: center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+      <i
+        id="prev"
+        onclick="show_image(-1)"
+        class="fa-solid fa-arrow-left-long"
+      ></i>
+      <i
+        id="next"
+        onclick="show_image(1)"
+        class="fa-solid fa-arrow-right-long"
+      ></i>
+    </div>
+  </body>
+  <script src="main_page.js"></script>
+  <script
+    src="https://kit.fontawesome.com/31d2cdd076.js"
+    crossorigin="anonymous"
+  ></script>
+</html>
