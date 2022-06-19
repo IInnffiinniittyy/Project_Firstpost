@@ -1,624 +1,315 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Technology News Latest Tech News</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="index1.css">
-    <link rel="stylesheet" href="style.scss">
-    <style>
-        /* BANNER content*/
-        #BannerN{
-            width: 80%;
-            height: 150px;
-            display: flex;
-            margin-left: 10%;
-        }
-        #BannerN>div{
-            display: flex;
-            height: 150px;
-        }
-        #BannerFirst{
-            width: 800px
-            px;
-            height: auto;
-            padding-top: 20px;
-            border: 1px solid black;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            
-        }
-        #BannerFirst>img{
-            width: 150px;
-            height: 90px;
-            display: flex;
-            margin-top: 20px;
-        }
-
-        #BannerSecond>img{
-            width: 300px;
-            height: 80px;
-            margin-left: 100px;
-            margin-top: 30px;
-        }
-        #BannerThird{
-            width: 500px;
-            height: 50px;
-            margin-left: 10%;
-            margin-top: 20px;
-            border: 1px solid black;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        #BannerThird>img{
-            width: 150px;
-            height: 100px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        /* Below Banner Script */
-        .belowScript{
-            width: 300px;
-            display: flex;
-            justify-self: center;
-            align-items: center;
-            margin-left: 40%;
-            margin-bottom: 100px;
-            color: #6e6d44;
-            font-size: small;
-
-        }
-        a{
-           text-decoration: none; 
-        }
-        #belowfirstpoint>a>strong{
-          font-size: small;
-          color: #6e6d44;
-        }
-
-        /* Navbar */
-        #navbar{
-            width: 87%;
-            height: auto;
-            display: flex;
-            margin-left: 85PX;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        #navbar>div{
-            width: 70%;
-            height: auto;
-            display: flex;
-            justify-content: center;
-            align-content: center;
-        }
-
-        .navHome>a{color: red;}
-        .navGadgets>select>option{color: green;}
-        .navNews>a{color: rgb(194, 41, 168);}
-        .navReviews>a{color: rgb(231, 50, 231);}
-        .navScience>a{color: red;}
-        .navAuto>a{color: rgb(57, 13, 177);}
-        .navGaming>a{color: rgb(75, 182, 224);}
-        .navPhoto>a{color: rgb(40, 103, 238);}
-        .navVideo>a{color: rgb(207, 59, 22);}
-        .navHowto>a{color: rgb(20, 16, 13);}
-        .navBestdeals>a{color: rgb(20, 16, 13);}
-
-        .imgslid{
-            width: 100%;
-            height: 350px;
-            border: 1px solid rebeccapurple;
-        }
-
-        .carousel-item>img{
-            width: 500px;
-            height: 300px;
-        }
-
-        /* MAIN CONTENT */
-
-        #maincontent{
-            display: flex;
-        }
-
-        /* CONTENT */
-
-        #content1{
-            width: 30%;
-            height: auto;
- 
-        }
-
-        #content1>li{
-            list-style-type: none;
-            border-bottom: 2px dotted #000;
-
-        }
-        #content1{
-            width: 25%;
-            border-right: 1px solid rgb(22, 155, 165);
-            margin-left: 55px;
-        }
-        .contpara,.num{
-            color: rgb(163, 163, 163);
-            
-        }
-        .num{
-            font-size: 40px;
-            font-style: italic;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            text-align: right;
-        }
-
-        #contp{
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            font-size: 22px;
-        }
-
-        .subcont1{
-            display: flex;
-        }
-        /* CONTENT2 */
-
-        #content2{
-            width: 40%;
-            height: auto;
-            display: grid;
-            grid-template-columns: repeat(2,1fr);
-            grid-template-rows: repeat(6,);
-            
-        }
-
-        #content2>div{
-            height: auto;
-        }
-        
-        .cont2h3{
-            background-color: #333333;
-            color: #cbbc1a;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-        }
-       .cont2p2{
-            font-size: 20px;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-       }
-
-       .cont2img{
-         width: 250px;
-       }
-
-       /* BELOW CONTENT */
-
-
-       #blwcont{
-        width: 100%;
-        height: 300px;
-        display: grid;
-        grid-template-columns: repeat(6,180px);
-        grid-template-rows: repeat(1,250px);
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-        background-color: #f0f0f0;
-
-       }
-
-       #blwcont>div{
-        margin-top: 30px;
-        padding-top: 20px;
-        background-color: white;
-       }
-       .blwa{
-        padding-top: 40px;
-        margin-top: 20px;
-       }
-
-       .blwa,.blwp,.blwh2{
-        width: 100%;
-        margin-left: 40px;
-        color: #000;
-       }
-
-       .content3{
-        width: 30%;
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        grid-template-rows: repeat(4,300px);
-       }
-       .content3>div{
-        text-align: center;
-        align-items: center;
-       }
-
-    </style>
-    
-
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/583f110147.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="ujjwal.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="footer.css">
 </head>
 <body>
-    <!-- BANNER -->
-    <div id="BannerN">
-        <div id="BannerFirst">
-            <img src="https://images.firstpost.com/fpimages/380x285/fixed/jpg/flip_quote/20210923080422_Nord%202%20-1024.jpg" alt="">
-            <p>OnePlus Nord 2 review Return of the flagship-killer</p>
-        </div >
-        <div id="BannerSecond">
-            <img src="https://images.firstpost.com/wp-content/uploads/assets/images/tech2/rev_tech2-logo-final.png" alt="">
-        </div>
-        <div id="BannerThird">
-            <p>September sky events Mentor showers, a comet, asteroids and more</p>
-            <img src="https://images.firstpost.com/fpimages/380x285/fixed/jpg/flip_quote/20210903080056_nathan-anderson-L95xDkSSuWw-unsplash%20(2).jpg" alt="">
-            
-        </div>
-
-    </div>
-
-    <!-- SCRIPT BELOW BANNER -->
-    <div class="belowScript">
-    <div>
-        <span>Friday, June 17, 2022 |</span>
-        <span id="belowfirstpoint">
-            <a href="">
-                <strong>Back to</strong>
-                <img id="firstpointhead" width="78" height="21" src="https://www.firstpost.com/assets/images/fp-blk.png">
-            </a>
-        </span>
-    </div>
-    </div>
-
-    <!-- UNDERLINE -->
-    <div></div>
-
-    <!-- NAVBAR -->
+    
     <div id="navbar">
-        <div class="navHome"><a href="https://www.firstpost.com/tech">Home</a></div>
-        <div class="navGadgets"><a href="https://www.firstpost.com/tech/gadgets"><select value="GADGETS">
-            <option value="GADGETS">GADGETS</option>
-            <option value="MOBILES">MOBILES</option>
-            <option value="LAPTOPS">LAPTOPS</option>
-            <option value="TABLETS">TABLETS</option>
-        </select></a></div>
-        <div class="navNews"><a href="https://www.firstpost.com/tech/news-analysis">NEWS</a></div>
-        <div class="navReviews"><a href="https://www.firstpost.com/tech/reviews">REVIEWS</a><select name="REVIEWS">
-            <option value="GADGETS">REVIEWS</option>
-            <option value="MOBILES">MOBILES</option>
-            <option value="LAPTOPS">LAPTOPS</option>
-            <option value="TABLETS">TABLETS</option>
-        </select></div>
-        <div class="navScience"><a href="https://www.firstpost.com/tech/science">SCIENCE</a></div>
-        <div class="navAuto"><a href="https://www.firstpost.com/tech/auto">AUTO</a></div>
-        <div class="navGaming"><a href="https://www.firstpost.com/tech/gaming">GAMING</a></div>
-        <div class="navPhoto"><a href="https://www.firstpost.com/tech/photos">PHOTO</a></div>
-        <div class="navVideo"><a href="https://www.firstpost.com/tech/videos">VIDEOS</a></div>
-        <div class="navHowto"><a href="https://www.firstpost.com/tech/how-to">HOW TO</a></div>
-        <div class="navBestdeals"><a href="https://www.firstpost.com/tech/best-deals">BEST DEALS</a></div>
-        
-    </div>
-
-    <!-- IMAGE SLIDER -->
-    <div>
-        <section id="slider" class="pt-5">
-            <div class="container">
-              <h1 class="text-center"><b>BEST DEALS</b></h1>
-                <div class="slider">
-                          <div class="owl-carousel">
-                              <div class="slider-card">
-                                  <div class="d-flex justify-content-center align-items-center mb-4">
-                                      <img src="https://www.firstpost.com/wp-content/uploads/2022/06/Carl-Pei-reveals-Nothing-Phone-1-and-its-industrial-design-weeks-before-the-official-launch.jpg" alt="Error" >
-                                  </div>
-                                  <h5 class="mb-0 text-center"><b>Nothing Company</b></h5>
-                                  <p class="text-center p-4">CARL PEI REVEALS NOTHING PHONE (1) AND ITS INDUSTRIAL DESIGN WEEKS BEFORE THE OFFICIAL LAUNCH
-                                  </p>
-                              </div>
-                              <div class="slider-card">
-                                  <div class="d-flex justify-content-center align-items-center mb-4">
-                                      <img src="https://www.firstpost.com/wp-content/uploads/2022/06/OnePlus-Nord-CE-2-Lite-Review-Lead-image_y64-1.jpg" alt="Error">
-                                  </div>
-                                  <h5 class="mb-0 text-center"><b style="background: skyblue;">ONEPLUS</b></h5>
-                                  <p class="text-center p-4">ONEPLUS NORD CE 2 LITE 5G LONG TERM REVIEW: MOST NON-ONEPLUS PHONE EVER</p>
-                              </div>
-                              <div class="slider-card">
-                                  <div class="d-flex justify-content-center align-items-center mb-4">
-                                      <img src="https://www.firstpost.com/wp-content/uploads/2022/06/62.jpg" alt="Error">
-                                  </div>
-                                  <h5 class="mb-0 text-center"><b style="background: skyblue;">DYSON PURIFIER COOL FORMALDEHYDE REVIEW</b></h5>
-                                  <p class="text-center p-4">DYSON PURIFIER COOL FORMALDEHYDE TP09 REVIEW: AN EXPENSIVE PIECE OF ART, OR A TECHNOLOGICAL MARVEL?</p>
-                              </div>
-                              <div class="slider-card">
-                                  <div class="d-flex justify-content-center align-items-center mb-4">
-                                      <img src="https://www.firstpost.com/wp-content/uploads/2022/06/Goodbye-Internet-Explorer_-Microsoft-finally-retires-the-ailing-web-browser-after-27-years.jpg" alt="Error">
-                                  </div>
-                                  <h5 class="mb-0 text-center"><b style="background: skyblue;">INTERNET</b></h5>
-                                  <p class="text-center p-4">GOODBYE INTERNET EXPLORER: MICROSOFT FINALLY RETIRES THE AILING WEB BROWSER AFTER 27 YEARS</p>
-                              </div>
-                              <div class="slider-card">
-                                  <div class="d-flex justify-content-center align-items-center mb-4">
-                                      <img src="https://www.firstpost.com/wp-content/uploads/2022/06/Apple-working-on-12_-MacBook-15_-MacBook-Air-and-14.1_-iPad-Pro-for-a-2023-release.jpg" alt="Error">
-                                  </div>
-                                  <h5 class="mb-0 text-center"><b style="background: skyblue;">APPLE</b></h5>
-                                  <p class="text-center p-4">Apple working on 12" MacBook, 15" MacBook Air, and 14.1" iPad Pro for a 2023 release</p>
-                              </div>
-                          </div>
-                      </div>
-            </div>
-          </section>
-    </div>
-    
-    <!-- CONTENT -->
-
-    <div id="maincontent">
-        <div id="content1">
-            <li>
-                <p id="contp">MOST POPULAR</p>
-                <a href="https://www.firstpost.com/tech/news-analysis/whatsapp-continues-to-ban-accounts-in-india-over-16-lakh-accounts-banned-in-april-10747861.html">
-                            <img src="https://images.firstpost.com/fpimages/100x100/fixed/jpg/scalex16x9/2022/06/11.jpg?impolicy=website&width=312&height=175" alt=""></a>
-                <div class="subcont1">
-                    <div>
-                        <a href=""><p class="contpara">WhatsApp continues to ban accounts in India, over 16 lakh accounts were banned in April</p></a>
-                    </div>
-                    <div>
-                        <span class="num">1</span>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div class="subcont1">
-                    <div>
-                        <a href="https://www.firstpost.com/tech/news-analysis/explained-microsoft-knows-most-pc-owners-use-pirated-windows-but-why-it-still-wont-take-any-action-10746321.html">
-                            <p class="contpara">Explained: Microsoft knows most PC owners use pirated Windows, but why it still won’t take any action</p></a>
-                    </div>
-                    <div>
-                        <span class="num">2</span>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div class="subcont1">
-                    <div>
-                        <a href="https://www.firstpost.com/tech/news-analysis/bots-on-twitter-have-become-elon-musks-biggest-issue-in-going-forward-with-the-acquisition-heres-why-10687411.html">
-                            <p class="contpara">Bots on Twitter have become Elon Musk's biggest issue in going forward with the acquisition. Here's why</p>
-                        </a>
-                    </div>
-                    <div>
-                        <span class="num">3</span>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div class="subcont1">
-                    <div>
-                        <a href="https://www.firstpost.com/tech/news-analysis/netflix-trial-to-charge-for-sharing-password-in-latin-american-countries-backfires-streaming-giant-loses-more-subscribers-10745631.html">
-                            <p class="contpara">crackdown on password-sharing in Latin American countries is proving to be a disaster.</p>
-                        </a>
-                    </div>
-                    <div>
-                        <span class="num">4</span>
-                    </div>
-                </div>
-                
-            </li>
-            <li>
-                <div class="subcont1">
-                    <div>
-                        <a href="https://www.firstpost.com/tech/news-analysis/samsung-to-reduce-phone-prodcution-by-30-million-units-this-year-10736441.html">
-                            <p class="contpara">Samsung’s phone production to take a major hit this year, will be producing 30 million units less</p>
-                        </a>
-                    </div>
-                    <div>
-                        <span class="num">5</span>
-                    </div>
-                </div>
-                
-            </li>
-            <li>
-                <div class="subcont1">
-                    <div>
-                        <a href="https://www.firstpost.com/tech/news-analysis/apple-files-patent-on-new-camera-system-for-future-iphones-10741851.html">
-                            <p class="contpara">Apple’s new patent reveals radical new camera tech for future iPhones</p>
-                        </a>
-                    </div>
-                    <div>
-                        <span class="num">6</span>
-                    </div>
-                </div>
-                
-            </li>
-            <li>
-                <div class="subcont1">
-                    <div>
-                        <a href="https://www.firstpost.com/tech/news-analysis/half-of-indian-smartphone-users-have-seen-ads-based-on-their-personal-phone-conversations-10723541.html">
-                            <p class="contpara">Half of Indian smartphone users are seeing ads based on their personal phone conversations, says survey</p>
-                        </a>
-                    </div>
-                    <div>
-                        <span class="num">7</span>
-                    </div>
-                </div>
-                
-            </li>
-            <li>
-                <div class="subcont1">
-                    <div>
-                        <a href="https://www.firstpost.com/tech/news-analysis/google-pixel-fold-notepad-launch-delayed-will-launch-in-2023-10725601.html">
-                            <p class="contpara">Google’s foldable Pixel phone is not coming anytime soon, has been postponed to 2023</p>
-                        </a>
-                    </div>
-                    <div>
-                        <span class="num">8</span>
-                    </div>
-                </div>
-               
-            </li>
-            <li>
-                <div class="subcont1">
-                    <div>
-                        <a href="https://www.firstpost.com/tech/news-analysis/pm-modi-inaugurates-indias-first-5g-test-bed-10684481.html">
-                            <PM class="contpara">PM Narendra Modi Inaugurates India's first and indigenously made 5G test bed</p>
-                        </a>
-                    </div>
-                    <div>
-                        <span class="num">9</span>
-                    </div>
-                </div>
-                
-            </li>
-            <li>
-                <div class="subcont1">
-                    <div>
-                        <a href="https://www.firstpost.com/tech/news-analysis/indian-govt-issues-high-severity-warnings-for-apple-devices-running-on-older-generation-operating-system-10706791.html">
-                            <p class="contpara">Govt. of India issues high severity warnings for Apple devices like iPhone, iPad that can be hacked</p>
-                        </a>
-                    </div>
-                    <div>
-                        <span class="num">10</span>
-                    </div>
-                </div>
-                
-            </li>
             
-        </div>
-        <div id="content2">
-            
-            <div>
-                <a href=""><h3 class="cont2h3">So long Internet Explorer; Microsoft to finally retire once-dominant browser</h3>
-                    <p class="cont2p2">Users marked Explorer's passing on Twitter, with some referring to it as a "bug-ridden, insecure POS" or the "top browser for installing other browsers.</p>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.firstpost.com/tech/news-analysis/so-long-internet-explorer-microsoft-to-finally-retire-once-dominant-browser-10795221.html">
-                    <img class="cont2img" src="https://images.firstpost.com/fpimages/100x100/fixed/jpg/scalex16x9/2022/06/internet-explorer-640.jpg?impolicy=website&width=355&height=200" alt=""></a>
-            </div>
-            <div>
-                <a href="https://www.firstpost.com/tech/news-analysis/everything-to-know-about-htc-viverse-metaverse-smartphone-launching-on-28-june-10789661.html">
-                    <img class="cont2img" src="https://images.firstpost.com/fpimages/100x100/fixed/jpg/scalex16x9/2022/06/Here%E2%80%99s-everything-one-needs-to-know-about-HTC%E2%80%99s-upcoming-metaverse-smartphone.jpg?impolicy=website&width=355&height=200" alt=""></a>
-            </div>
-            <div>
-                <a href=""><h3 class="cont2h3">Here’s everything one needs to know about HTC’s upcoming metaverse smartphone</h3>
-                    <p class="cont2p2">HTC is all set to make a comeback to the smartphone industry with their upcoming Viverse, a smartphone that is dedicated to, and based on technologies that facilitate the metaverse. The device will be officially announced on 28 June.</p>
-                </a>
-            </div>
-            <div>
-                <a href=""><h3 class="cont2h3">OnePlus Nord CE 2 Lite 5G long term review: Most non-OnePlus phone ever</h3>
-                    <p class="cont2p2">The company has cut far too many corners to make this phone affordable, but in the process, it barely feels like a OnePlus phone.</p>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.firstpost.com/tech/news-analysis/oneplus-nord-ce-2-lite-5g-long-term-review-most-non-oneplus-phone-ever-10783441.html">
-                    <img class="cont2img" src="https://images.firstpost.com/fpimages/100x100/fixed/jpg/scalex16x9/2022/06/OnePlus-Nord-CE-2-Lite-Review-Lead-image_y64-11.jpg?impolicy=website&width=355&height=200" alt=""></a>
-            </div>
-            <div>
-                <a href="https://www.firstpost.com/tech/news-analysis/oneplus-will-launch-oneplus-10t-as-its-final-flasghip-device-of-2022-will-come-with-snapdragon-8-gen-1-soc-10781681.html">
-                    <img class="cont2img" src="https://images.firstpost.com/fpimages/100x100/fixed/jpg/scalex16x9/2022/06/OnePlus-likely-to-launch-the-OnePlus-10T-later-this-year-to-come-with-Snapdragon-8-Gen-1-SoC-1.jpg?impolicy=website&width=355&height=200" alt=""></a>
-            </div>
-            <div>
-                <a href=""><h3 class="cont2h3">OnePlus likely to launch the OnePlus 10T later this year, to come with Snapdragon 8+ Gen 1 SoC</h3>
-                    <p class="cont2p2">Rumours about OnePlus’ upcoming flagship, codenamed Project Ovaltine had been doing the round for some time now. It turns out that instead of the OnePlus 10 Ultra, it actually refers to the OnePlus 10T, which will launch later this year with the Snapdragon 8+ Gen 1 SoC.</p>
-                </a>
-            </div>
-            <div>
-                <a href=""><h3 class="cont2h3">Apple working on 12" MacBook, 15" MacBook Air, and 14.1" iPad Pro for a 2023 release</h3>
-                    <p class="cont2p2">Apple is planning to revamp their line of MacBooks and iPads in a massive way. They are already working on an array of MacBook Airs, and iPad Pros, planning to release them in 2023 with updated M2 Max &amp; M2 Pro chips.</p>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.firstpost.com/tech/news-analysis/apple-set-to-revamp-macbook-and-ipad-lineup-with-new-models-and-m2-pro-m2-max-chips-10781081.html">
-                    <img class="cont2img" src="https://images.firstpost.com/fpimages/100x100/fixed/jpg/scalex16x9/2022/06/Apple-working-on-12_-MacBook-15_-MacBook-Air-and-14.1_-iPad-Pro-for-a-2023-release.jpg?impolicy=website&width=355&height=200" alt=""></a>
-            </div>
-            <div>
-                <a href="https://www.firstpost.com/tech/news-analysis/government-of-india-issues-high-severity-warning-for-google-chrome-firefox-users-tips-to-stay-safe-10775861.html">
-                    <img class="cont2img" src="https://images.firstpost.com/fpimages/100x100/fixed/jpg/scalex16x9/2022/06/Govt.-of-India-issues-high-severity-warning-for-Google-Chrome-Firefox-users-here%E2%80%99s-how-to-stay-safe.jpg?impolicy=website&width=355&height=200" alt=""></a>
-            </div>
-            <div>
-                <a href=""><h3 class="cont2h3">Govt. of India issues high-severity warning for Google Chrome &amp; Firefox users, here’s how to stay safe</h3>
-                    <p class="cont2p2">CERT-In has flagged certain versions of Google Chrome and Mozilla Firefox to be severely vulnerable to hackers and malicious programmes. There is, however, a very simple way to keep themselves safe and protected.</p>
-                </a>
-            </div>
+        <div id="first">
            
+            </label>
+            <div id="child">
+                <div>
+                    <img src="https://www.firstpost.com/static/images/fp-desk-logo.png" alt="logo">
+                </div>
+                <!-- this div is for icon -->
+                
+                <div>
+                    <a href="">
+                        <i id="us1" class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="">
+                        <i id="us2" class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="">
+                        <i id="us3" class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="">
+                        <i id="us4" class="fa-brands fa-youtube"></i>
+                    </a>
+
+                </div>
+                
+              
+                
+            </div>
         </div>
-        <div class="content3">
-            <div class="cont3div">
-                <img class="cont3img" src="https://images.firstpost.com/fpimages/249x249/fixed/jpg/tech2/top-reviews/1577434102155.jpg?impolicy=website&width=249&height=249" alt="">
-                <p class="cont3p">Vivo Vivo V17</p>
-                <p >TECH RATING</p>
+        <div id="second">
+            <div id="childAm">
+                <p><a href="index2.html">Health </a></p>
+                <p>|</p>
+                <p><a href="index7.html">India </a></p>
+                <p>|</p>
+                <p><a href="index6.html">World</a></p>
+                <p>|</p>
+                <p><a href="index9.html">Politics</a></p>
+                <p>|</p>
+                <p><a href="index3.html">Auto</a></p>
+                <p>|</p>
+                <p><a href="index10.html">Opinion</a></p>
+                <p>|</p>
+                <p><a href="index4.html">Sports</a></p>
+                <p>|</p>
+                <p><a href="index4.html">Cricket</a></p>
+                <p>|</p>
+                <p><a href="index5.html">Entertainment</a></p>
+                <p>|</p>
+                <p><a href="index1.html">Tech</a></p>
+                <p >|</p>
             </div>
-            <div>
-                <img src="https://images.firstpost.com/fpimages/249x249/fixed/jpg/tech2/top-reviews/1577434102874.jpg?impolicy=website&width=249&height=249" alt="">
-                <p>Vivo Vivo V17</p>
-                <p>TECH RATING</p>
-            </div>
-            <div>
-                <img src="https://images.firstpost.com/fpimages/249x249/fixed/jpg/tech2/top-reviews/1577434102926.jpg?impolicy=website&width=249&height=249" alt="">
-                <p>Vivo Vivo V17</p>
-                <p>TECH RATING</p>
-            </div>
-            <div>
-                <h3></h3>
-                <iframe width="350px" height="250px" src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1" ></iframe>
+            <div id="seChildAm">
+               <a href="login.html"> <button>Login</button></a>
+                <a href=""><img src="https://www.firstpost.com/static/images/netrasuraksha_L2_103x25px.jpg" alt="netraSurakshaLogo"></a>
             </div>
         </div>
     </div>
+    <label >
+        <input type="checkbox">
+        <div class="toggle">
+            <span class="top_line common"></span>
+            <span class="middle_line common"></span>
+            <span class="bottom_line common"></span>
+        </div>
+        <div class="slide">
+            <ul >
+                <hr>
+                <li><a href="index.html">Home</a></li>
+                <hr>
+                <li><a href="index2.html">Health</a></li>
+                <hr>
+                <li><a href="index7.html">India</a></li>
+                <hr>
+                <li><a href="index6.html">World</a></li>
+                <hr>
+                <li><a href="index9.html">Politics</a></li>
+                <hr>
+                
+                
+                <li><a href="index3.html">auto</a></li>
+                <hr>
+                <li><a href="index10.html">Opinion</a></li>
+                <hr>
+                <li><a href="index4.html">Sports</a></li>
+                <hr>
+                <li><a href="index4.html">Cricket</a></li>
+                <hr>
+                <li><a href="index5.html">Entertainment</a></li>
+                <hr>
+                <li><a href="index1.html">Tech</a></li>
+                <hr>
+               
+               
+            </ul>
+            <div class="lower_logo">
+                <a href="">
+                    <i id="us1" class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="">
+                    <i id="us2" class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="">
+                    <i id="us3" class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="">
+                    <i id="us4" class="fa-brands fa-youtube"></i>
+                </a>
 
-    <!-- iframe src="" FOR VIDEO-->
+            </div>
+        </div>
+    </label>
 
+    <!-- this is our main body -->
+    <div id="mainSy">
+        <h1 style="text-align: center;margin-top: 20px;">THE BIG STORY</h1>
+        <div class="hr">
+            <div>
+                <hr>
+            </div>
+            <div>
 
-    <!-- BELOW CONTENT -->
-    <div id="blwcont">
-        <div>
-            <a class="blwa" href=""><img src="https://cdn1.smartprix.com/rx-i6wnbWYSE-w110-h110/tcl-c9.jpg" alt="">
-                <p class="blwp">Apple Iphone 11</p>
-                <h2 class="blwh2">₹ 50,999</h2>
-            </a>
+            </div>
+            <div>
+                <hr>
+            </div>
         </div>
-        <div>
-            <a class="blwa" href=""><img src="https://cdn1.smartprix.com/rx-iaVCK97Wi-w110-h110/htc-desire-19s.jpg" alt="">
-                <p class="blwp">Xiaomi Redmi Note 9</p>
-                <h2 class="blwh2">₹ 11,999</h2>
-            </a>
-        </div>
-        <div>
-            <a class="blwa" href=""><img src="https://cdn1.smartprix.com/rx-iKnQszRKr-w110-h110/tcl-c9-plus.jpg" alt="">
-                <p class="blwp">Xiaomi Redmi 9</p>
-                <h2 class="blwh2">₹ 9,499</h2>
-            </a>
-        </div>
-        <div>
-            <a class="blwa" href=""><img src="https://cdn1.smartprix.com/rx-iCVmmq3Fs-w110-h110/vivo-s5-8gb-ram-256g.jpg" alt="">
-                <p class="blwp">Apple Iphone 11 (128GB</p>
-                <h2 class="blwh2">₹ 55,999</h2>
-            </a>
-        </div>
-        <div>
-            <a class="blwa" href=""><img src="https://cdn1.smartprix.com/rx-iefs7U7Zx-w110-h110/vivo-z5i.jpg" alt="">
-                <p class="blwp">Nokia 2.2</p>
-                <h2 class="blwh2">₹ 7,990</h2>
-            </a>
-        </div>
-        <div>
-            <a class="blwa" href=""><img src="https://cdn1.smartprix.com/rx-imHJIpMFa-w110-h110/samsung-galaxy-a01.jpg" alt="">
-                <p class="blwp">Apple Iphone SE 2020</p>
-                <h2 class="blwh2">₹ 32,999</h2>
-            </a>
-        </div>
+        
+        <!-- this is our slider part -->
+
+        <div class="container">
+            <div class="image fade">
+              <a href="https://www.firstpost.com/category/world" target="_blank">
+                <img src="Slider_main_pics/11.jpg" alt="1" width="100%" />
+              </a>
+            </div>
+            <div class="image fade">
+              <a href="https://www.firstpost.com/category/opinion " target="_blank">
+                <img src="Slider_main_pics/12.jpg" alt="2" width="100%" />
+              </a>
+            </div>
+            <div class="image fade">
+              <a href="https://www.firstpost.com/category/opinion" target="_blank">
+                <img src="Slider_main_pics/13.jpg" alt="3" width="100%" />
+              </a>
+            </div>
+            <div class="image fade">
+              <a href="https://www.firstpost.com/category/sports" target="_blank">
+                <img src="Slider_main_pics/14.jpg" alt="4" width="100%" />
+              </a>
+            </div>
+            <div class="image fade">
+              <a href="https://www.firstpost.com/category/entertainment" target="_blank">
+                <img src="Slider_main_pics/15.jpg" alt="5" width="100%" />
+              </a>
+            </div>
+            <div style="text-align: center">
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+            <i
+              id="prev"
+              onclick="show_image(-1)"
+              class="fa-solid fa-arrow-left-long"
+            ></i>
+            <i
+              id="next"
+              onclick="show_image(1)"
+              class="fa-solid fa-arrow-right-long"
+            ></i>
+          </div>
     </div>
 
     
+    
 
+    <!-- this is our footer part  -->
+    <div><img src="" alt=""></div>
+
+    <footer>
+   
+     <hr color="#585858" width="100%" size="8px">
+     <div class="content">
+         <div class="top">
+             <div class="log_name">
+                 <a href="https://www.firstpost.com/"><img src="https://www.firstpost.com/static/images/fp-logo.png" alt=""></a>
+             </div>
+ 
+             <div class="media_icons">
+                <a href="https://www.facebook.com/firstpostin"> <i class="fab fa-facebook"></i></a>
+                 <a href="https://twitter.com/firstpost"><i class="fa fa-twitter"></i></a>
+                 <a href="https://www.instagram.com/firstpost/"><i class="fa-brands fa-instagram"></i></i></a>
+                <a href="https://www.youtube.com/channel/UCz8QaiQxApLq8sLNcszYyJw/featured"> <i class="fa-brands fa-youtube"></i></a>
+       
+ 
+             </div>
+         </div>
+         <hr>
+         <div class="link-boxes">
+             <ul class="box">
+                 <li class="link_name"><h3>Firstpost</h3></li>
+                 <li><a href="https://www.firstpost.com/about-firstpost">About Firstpost</a></li>
+                 <li><a href="https://www.firstpost.com/category/press-release">Press Release</a></li>
+                 <li><a href="https://www.firstpost.com/rss">RSS</a></li>
+                 <li><a href="https://twitter.com/firstpost">Twitter</a></li>
+                 <li><a href="https://www.facebook.com/firstpostin/">Facebook</a></li>
+                 
+             </ul>
+             <ul class="box">
+                 <li class="link_name"><h3>Section</h3></li>
+                 <li><a href="https://www.firstpost.com/">Front Page</a></li>
+                 <li><a href="https://www.firstpost.com/category/politics">Politics</a></li>
+                 <li><a href="https://www.firstpost.com/category/sports">Sports</a></li>
+                 <li><a href="https://www.firstpost.com/category/india">India</a></li>
+                 <li><a href="https://www.firstpost.com/category/world">World</a></li>
+                 <li><a href="https://www.firstpost.com/category/business">Business</a></li>
+                 <li><a href="https://www.firstpost.com/category/entertainment">Entertainment News</a></li>
+                 <li><a href="https://www.firstpost.com/firstcricket">Tech</a></li>
+                 <li><a href="https://www.firstpost.com/category/photos/">Photo</a></li>
+                 <li><a href="https://www.firstpost.com/category/health">Health</a></li>
+                
+                 <li><a href="https://www.firstpost.com/category/videos">Videos</a></li>
+                 <li><a href="https://www.firstpost.com/category/press-release">Press Release</a></li>
+                 <li><a href="https://www.firstpost.com/culture-of-world/">Firstculture</a></li>
+                 <li><a href="https://www.firstpost.com/tag/long-reads">Long Reads</a></li>
+                 <li><a href="https://www.firstpost.com/tech/mobiles">Latest Mobiles</a></li>
+                 <li><a href="https://www.firstpost.com/tech/tablets">Latest Tablets</a></li>
+                 <li><a href="https://www.firstpost.com/tech/laptops">Latest Laptops</a></li>
+                 
+             </ul>
+ 
+             <ul class="box">
+                 <li class="link_name"><h3>Plus</h3></li>
+                 <li><a href="https://www.firstpost.com/firstcricket/cricket-live-score"  target="_blank">Cricket Live Score</a></li>
+                 <li><a href="https://www.firstpost.com/category/delhi">New Delhi</a></li>
+                 <li><a href="https://www.firstpost.com/category/mumbai">Mumbai</a></li>
+                 <li><a href="https://www.firstpost.com/tag/coronavirus">Fp Exclusives</a></li>
+                 <li><a href="https://www.firstpost.com/education/board-results">Board Exam Results 2020</a></li>
+                 <li><a href="https://www.firstpost.com/firstcricket/series/ipl-2020.html">Ipl 2020</a></li>
+                 <li><a href="https://www.firstpost.com/tag/coronavirus">Coronavirus</a></li>
+                 
+             </ul>
+ 
+             <ul class="box">
+                 <li class="link_name"><h3>Tools</h3></li>
+                 <li><a href="https://feeds.feedburner.com/firstpost/xfJh">Rss Feeds</a></li>
+                 <li><h3>Apps</h3></li>
+                 <li><a href="https://itunes.apple.com/in/app/firstpost/id445829858?mt=8">Ios</a></li>
+                 <li><a href="https://play.google.com/store/apps/details?id=com.firstpost">Android</a></li>
+                 
+                 
+             </ul>
+         </div>
+        <hr>
+ 
+        <div class="media">
+         <h2 >Network18 sites</h2>
+         <p><i class="fa-solid fa-angle-right"></i></p>
+         <a class="us" href="https://www.moneycontrol.com/"><p>Moneycontrol</p></a>
+         <a class="us" href="https://www.news18.com/"><p>News18</p></a>
+         <a class="us" href="https://www.cnbctv18.com/"><p>CNBC TV18</p></a>
+         <a class="us" href="https://www.overdrive.in/"><p>Overdrive</p></a>
+         <a class="us" href="https://www.forbesindia.com/"><p> Forbes India</p></a>
+         <a class="us" href="https://www.topperlearning.com/"><p>TopperLearning</p></a>
+                          
+        </div>
+        <hr>
+        <div class="bottom_text">
+         <span class="copyright_text">Copyright © 2022. <a style="text-decoration: none;color:black" href="">Firstpost </a> - All Rights Reserved.</span>
+        </div>
+ 
+        <div class="term">
+           <h3><a style="text-decoration: none; color:black" href="https://www.firstpost.com/terms-of-use">Terms of use | </a></h3>
+           <h3><a style="text-decoration: none; color:black" href="https://www.firstpost.com/privacy"> Privacy | </a></h3>
+           <h3><a style="text-decoration: none; color:black" href="https://www.firstpost.com/cookie-policy"> Cookie Policy</a></h3>
+         
+        </div>
+ 
+     </div>
+     
+     
+ 
+      </div>
+ 
+    </footer> 
+
+   
 </body>
-
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script> 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" ></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="index.js"></script>
-<script src="index1.js"></script>
 </html>
+
+<script src="main.js">
+</script>
+
+<script src="ujjwal.js"></script>
+
