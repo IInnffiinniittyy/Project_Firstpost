@@ -46,9 +46,14 @@ Firstpost is an Indian online news and media website. The site is a part of the 
 
 
 
-A Group project build by 4 Developers, executed in 4 Days.
+A Group project build by 6 Developers, executed in 5 Days.
 
 ## Contributers
 - **[Satyam Yadav](https://github.com/iamsatyamyadav)**
+- **[Ujjwal Singh](https://github.com/ujjwalsingh13feb)**
+- **[Tanuj Pant](https://github.com/IInnffiinniittyy)**
+- **[Aman Verma](https://github.com/amanvermai30)**
+- **[Vinay Barve](https://github.com/vinaybarve)**
+- **[Nikhil](https://github.com/Naidu9051)**
 
 
